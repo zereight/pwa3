@@ -9,15 +9,15 @@ export default  withRouter( class extends React.Component {
     // Why do we use withRouter? Because "url" method will not be supported!
 
     render(){
-        //console.log(this.props)
+        console.log(this.props)
         return (
             <div>
                 <Head>
-                    <Header/>
+                    <title>{this.props.router.query.title} | myStore</title>
                 </Head>
-               
-               <h3>{this.props.router.query.title}</h3>
-
+                <div>
+                <h3>{this.props.router.query.title}</h3>
+                </div>
             </div>
             );
     }

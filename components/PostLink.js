@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export default (props) => (
-    <Link href={`./movies?title=${props.title}`} as={`./movies/${props.title}`} >
-        <a>{props.title}</a>
-    </Link>
+    <div>
+        <Link href={`./movies?id=${props.id}`} as={`./movies/${props.id}`} >
+            <a>{props.title}</a>
+        </Link>
+    </div>
 );

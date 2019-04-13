@@ -8,10 +8,10 @@ export default () => (
     <div>
         <Head>
             <title>Home | My Store</title>
-            <Header/>
         </Head>
 
-        <PostLink title={"something"} />
+        <PostLink title={"something"} id={0} />
+        <PostLink title={"anything"} id={1} />
 
         <h1>This is main page.</h1>
         
