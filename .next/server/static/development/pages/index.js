@@ -190,6 +190,7 @@ var _jsxFileName = "/home/zereight/Desktop/dev/pwa/components/PostLink.js";
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "./movies?title=".concat(props.title),
+    as: "./movies/".concat(props.title),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4

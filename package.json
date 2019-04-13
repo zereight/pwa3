@@ -14,6 +14,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "next"
+    "dev": "node server",
+    "build": "next build",
+    "start": "NODE_ENV=production node server"
   }
 }
