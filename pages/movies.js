@@ -10,7 +10,7 @@ export default  withRouter( class extends React.Component {
     // So getInitialProps is used for fetching API!
 
     render(){
-        console.log(this.props)
+        //console.log(this.props)
         return (
             <div>
                 <Head>
