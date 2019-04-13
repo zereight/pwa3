@@ -10468,6 +10468,7 @@ function (_React$Component) {
     // when you using react class,
     // you can console.log() and you can see props's property!!
     // Why do we use withRouter? Because "url" method will not be supported!
+    // So getInitialProps is used for fetching API!
     value: function render() {
       console.log(this.props);
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", null, this.props.router.query.title, " | myStore")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", null, this.props.router.query.title)));

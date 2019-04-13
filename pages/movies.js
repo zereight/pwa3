@@ -7,6 +7,7 @@ export default  withRouter( class extends React.Component {
     // when you using react class,
     // you can console.log() and you can see props's property!!
     // Why do we use withRouter? Because "url" method will not be supported!
+    // So getInitialProps is used for fetching API!
 
     render(){
         console.log(this.props)

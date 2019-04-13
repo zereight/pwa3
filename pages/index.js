@@ -4,16 +4,24 @@ import Header from "../components/Header";
 import PostLink from "../components/PostLink";
 
 
-export default () => (
-    <div>
-        <Head>
-            <title>Home | My Store</title>
-        </Head>
+export default class extends React.Component{
 
-        <PostLink title={"something"} id={0} />
-        <PostLink title={"anything"} id={1} />
+    render(){
 
-        <h1>This is main page.</h1>
+        return (
+            <div>
+                <Head>
+                    <title>Home | My Store</title>
+                </Head>
         
-    </div>
-);
+                <PostLink title={"something"} id={0} />
+                <PostLink title={"anything"} id={1} />
+        
+                <h1>This is main page.</h1>
+                
+            </div>
+        );
+
+    }
+
+} 

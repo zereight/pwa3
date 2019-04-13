@@ -4,14 +4,24 @@ import Header from "../components/Header";
 
 export default class MyApp extends App { //not extneds Component
 
-    // _app.js is primary page
+    // Each next js has "getInitialProps" method.
+    // it will execute before rendering.
+    // it makes data flow before we rendering using if!
+    static async getInitialProps({Component, router, ctx}) {
+        let pageProps = {};
+        if( Component.getInitialProps ) {
+            pageProps = await Component.getInitialProps(ctx);
+        }
+
+        return {pageProps};
+    }
 
     render(){
-        const {Component} = this.props;
+        const {Component, pageProps} = this.props;
         return (
             <Container>
                 <Header/>
-                <Component/>
+                <Component {...pageProps} />
             </Container>
         );
     }
