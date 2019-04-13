@@ -12397,7 +12397,7 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(_default, [{
     key: "render",
     value: function render() {
-      console.log(this.props.movies);
+      //console.log(this.props.movies);
       var movies = this.props.movies;
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("title", null, "Home | My Store")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", null, "This is Main-Movie page."), movies.map(function (movie) {
         return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_PostLink__WEBPACK_IMPORTED_MODULE_11__["default"], {
