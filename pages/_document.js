@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
                 <Head>
                     <title>my Store</title>
                     <meta name= "Zereight" content={"KDH"}/>
-                    <link href="/static/styles.css" rel={"stylesheet"} />
+
                 </Head>
 
                 <body>
