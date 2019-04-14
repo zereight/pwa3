@@ -1,0 +1,1 @@
+export const API_URL = "https://api-apeast.graphcms.com/v1/cjuh27lj91xpe01dy848blj60/master";

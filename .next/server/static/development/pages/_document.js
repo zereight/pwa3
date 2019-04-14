@@ -2254,9 +2254,6 @@ function (_Document) {
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("html", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_9__["Head"], null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("title", null, "my Store"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("meta", {
         name: "Zereight",
         content: "KDH"
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("link", {
-        href: "/static/styles.css",
-        rel: "stylesheet"
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("body", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_9__["Main"], null), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_9__["NextScript"], null)));
     }
   }], [{

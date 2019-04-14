@@ -1,6 +1,6 @@
 {
   "devFiles": [
-    "static/development/dll/dll_11fbb1faa946535a5071.js"
+    "static/development/dll/dll_aa8f31c0c93a8f34edc5.js"
   ],
   "pages": {
     "/": [
@@ -15,11 +15,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/index": [
+    "/cart": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/movies": [
+    "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

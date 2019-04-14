@@ -1,8 +1,11 @@
 import App, {Container} from "next/app";
 import React from "react";
+import withApollo from "../lib/withApollo";
+import { ApolloProvider } from "react-apollo";
 
 
-export default class MyApp extends App { //not extneds Component
+
+class MyApp extends App { //not extneds Component
 
     // Each next js has "getInitialProps" method.
     // it will execute before rendering.
@@ -17,13 +20,16 @@ export default class MyApp extends App { //not extneds Component
     }
 
     render(){
-        const {Component, pageProps} = this.props;
+        const {Component, pageProps, apollo} = this.props;
         return (
-            <Container>
-                
-                <Component {...pageProps} />
-            </Container>
+            <ApolloProvider client={apollo}>
+                <Container>
+                    <Component {...pageProps} />
+                </Container>
+            </ApolloProvider>
         );
     }
 
 }
+
+export default withApollo(MyApp);
